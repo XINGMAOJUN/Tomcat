@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+	<!-- 注册服务  -->
+	<servlet>
+		<url-pattern>/login.action</url-pattern>
+		<servlet-class>com.LoginServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<url-pattern>/logout.action</url-pattern>
+		<servlet-class>com.LoginServlet</servlet-class>
+	</servlet>
+
+</web-app>
